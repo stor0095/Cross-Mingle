@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59E9DF7F1C06549F00990F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DF7E1C06549F00990F50 /* AppDelegate.swift */; };
+		59E9DF811C06549F00990F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DF801C06549F00990F50 /* ViewController.swift */; };
+		59E9DF861C06549F00990F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DF851C06549F00990F50 /* Assets.xcassets */; };
+		59E9DF891C06549F00990F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DF871C06549F00990F50 /* LaunchScreen.storyboard */; };
+		59E9DF941C06549F00990F50 /* Cross_MingleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DF931C06549F00990F50 /* Cross_MingleTests.swift */; };
+		59E9DF9F1C0654A000990F50 /* Cross_MingleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DF9E1C0654A000990F50 /* Cross_MingleUITests.swift */; };
+		59E9DFAE1C06550500990F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFAC1C06550500990F50 /* Main.storyboard */; };
+		59E9DFAF1C06550500990F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFAC1C06550500990F50 /* Main.storyboard */; };
+		59E9DFB01C06550500990F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFAC1C06550500990F50 /* Main.storyboard */; };
+		59E9DFB21C06557F00990F50 /* gameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB11C06557F00990F50 /* gameVC.swift */; };
+		59E9DFB31C06557F00990F50 /* gameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB11C06557F00990F50 /* gameVC.swift */; };
+		59E9DFB41C06557F00990F50 /* gameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB11C06557F00990F50 /* gameVC.swift */; };
+		59E9DFB61C06559E00990F50 /* spareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB51C06559E00990F50 /* spareVC.swift */; };
+		59E9DFB71C06559E00990F50 /* spareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB51C06559E00990F50 /* spareVC.swift */; };
+		59E9DFB81C06559E00990F50 /* spareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB51C06559E00990F50 /* spareVC.swift */; };
+		59E9DFBA1C0655AB00990F50 /* infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB91C0655AB00990F50 /* infoVC.swift */; };
+		59E9DFBB1C0655AB00990F50 /* infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB91C0655AB00990F50 /* infoVC.swift */; };
+		59E9DFBC1C0655AB00990F50 /* infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9DFB91C0655AB00990F50 /* infoVC.swift */; };
+		59E9DFBE1C06561100990F50 /* info-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFBD1C06561100990F50 /* info-2-xxl.png */; };
+		59E9DFBF1C06561100990F50 /* info-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFBD1C06561100990F50 /* info-2-xxl.png */; };
+		59E9DFC01C06561100990F50 /* info-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFBD1C06561100990F50 /* info-2-xxl.png */; };
+		59E9DFC21C06569D00990F50 /* refresh-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC11C06569D00990F50 /* refresh-xxl.png */; };
+		59E9DFC31C06569D00990F50 /* refresh-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC11C06569D00990F50 /* refresh-xxl.png */; };
+		59E9DFC41C06569D00990F50 /* refresh-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC11C06569D00990F50 /* refresh-xxl.png */; };
+		59E9DFC61C0656B600990F50 /* info-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC51C0656B600990F50 /* info-xxl.png */; };
+		59E9DFC71C0656B600990F50 /* info-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC51C0656B600990F50 /* info-xxl.png */; };
+		59E9DFC81C0656B600990F50 /* info-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC51C0656B600990F50 /* info-xxl.png */; };
+		59E9DFCA1C0656BE00990F50 /* Number_phone_case.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC91C0656BE00990F50 /* Number_phone_case.jpg */; };
+		59E9DFCB1C0656BE00990F50 /* Number_phone_case.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC91C0656BE00990F50 /* Number_phone_case.jpg */; };
+		59E9DFCC1C0656BE00990F50 /* Number_phone_case.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E9DFC91C0656BE00990F50 /* Number_phone_case.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59E9DF901C06549F00990F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E9DF731C06549F00990F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E9DF7A1C06549F00990F50;
+			remoteInfo = "Cross Mingle";
+		};
+		59E9DF9B1C0654A000990F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E9DF731C06549F00990F50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E9DF7A1C06549F00990F50;
+			remoteInfo = "Cross Mingle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59E9DF7B1C06549F00990F50 /* Cross Mingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cross Mingle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E9DF7E1C06549F00990F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59E9DF801C06549F00990F50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59E9DF851C06549F00990F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59E9DF881C06549F00990F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59E9DF8A1C06549F00990F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E9DF8F1C06549F00990F50 /* Cross MingleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cross MingleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E9DF931C06549F00990F50 /* Cross_MingleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross_MingleTests.swift; sourceTree = "<group>"; };
+		59E9DF951C06549F00990F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E9DF9A1C0654A000990F50 /* Cross MingleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cross MingleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E9DF9E1C0654A000990F50 /* Cross_MingleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross_MingleUITests.swift; sourceTree = "<group>"; };
+		59E9DFA01C0654A000990F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E9DFAD1C06550500990F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../G Mingle/G Mingle/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		59E9DFB11C06557F00990F50 /* gameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gameVC.swift; path = "../../G Mingle/G Mingle/gameVC.swift"; sourceTree = "<group>"; };
+		59E9DFB51C06559E00990F50 /* spareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = spareVC.swift; path = "../../G Mingle/G Mingle/spareVC.swift"; sourceTree = "<group>"; };
+		59E9DFB91C0655AB00990F50 /* infoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = infoVC.swift; path = "../../G Mingle/G Mingle/infoVC.swift"; sourceTree = "<group>"; };
+		59E9DFBD1C06561100990F50 /* info-2-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info-2-xxl.png"; path = "../../G Mingle/G Mingle/info-2-xxl.png"; sourceTree = "<group>"; };
+		59E9DFC11C06569D00990F50 /* refresh-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh-xxl.png"; path = "../../Go Mingle Photos/refresh-xxl.png"; sourceTree = "<group>"; };
+		59E9DFC51C0656B600990F50 /* info-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info-xxl.png"; path = "../../Go Mingle Photos/info-xxl.png"; sourceTree = "<group>"; };
+		59E9DFC91C0656BE00990F50 /* Number_phone_case.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Number_phone_case.jpg; path = "../../Go Mingle Photos/Number_phone_case.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59E9DF781C06549F00990F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E9DF8C1C06549F00990F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E9DF971C0654A000990F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59E9DF721C06549F00990F50 = {
+			isa = PBXGroup;
+			children = (
+				59E9DF7D1C06549F00990F50 /* Cross Mingle */,
+				59E9DF921C06549F00990F50 /* Cross MingleTests */,
+				59E9DF9D1C0654A000990F50 /* Cross MingleUITests */,
+				59E9DF7C1C06549F00990F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59E9DF7C1C06549F00990F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59E9DF7B1C06549F00990F50 /* Cross Mingle.app */,
+				59E9DF8F1C06549F00990F50 /* Cross MingleTests.xctest */,
+				59E9DF9A1C0654A000990F50 /* Cross MingleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59E9DF7D1C06549F00990F50 /* Cross Mingle */ = {
+			isa = PBXGroup;
+			children = (
+				59E9DF7E1C06549F00990F50 /* AppDelegate.swift */,
+				59E9DF801C06549F00990F50 /* ViewController.swift */,
+				59E9DFB51C06559E00990F50 /* spareVC.swift */,
+				59E9DFB11C06557F00990F50 /* gameVC.swift */,
+				59E9DFB91C0655AB00990F50 /* infoVC.swift */,
+				59E9DFAC1C06550500990F50 /* Main.storyboard */,
+				59E9DF851C06549F00990F50 /* Assets.xcassets */,
+				59E9DFC51C0656B600990F50 /* info-xxl.png */,
+				59E9DFBD1C06561100990F50 /* info-2-xxl.png */,
+				59E9DFC91C0656BE00990F50 /* Number_phone_case.jpg */,
+				59E9DFC11C06569D00990F50 /* refresh-xxl.png */,
+				59E9DF871C06549F00990F50 /* LaunchScreen.storyboard */,
+				59E9DF8A1C06549F00990F50 /* Info.plist */,
+			);
+			path = "Cross Mingle";
+			sourceTree = "<group>";
+		};
+		59E9DF921C06549F00990F50 /* Cross MingleTests */ = {
+			isa = PBXGroup;
+			children = (
+				59E9DF931C06549F00990F50 /* Cross_MingleTests.swift */,
+				59E9DF951C06549F00990F50 /* Info.plist */,
+			);
+			path = "Cross MingleTests";
+			sourceTree = "<group>";
+		};
+		59E9DF9D1C0654A000990F50 /* Cross MingleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59E9DF9E1C0654A000990F50 /* Cross_MingleUITests.swift */,
+				59E9DFA01C0654A000990F50 /* Info.plist */,
+			);
+			path = "Cross MingleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59E9DF7A1C06549F00990F50 /* Cross Mingle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E9DFA31C0654A000990F50 /* Build configuration list for PBXNativeTarget "Cross Mingle" */;
+			buildPhases = (
+				59E9DF771C06549F00990F50 /* Sources */,
+				59E9DF781C06549F00990F50 /* Frameworks */,
+				59E9DF791C06549F00990F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cross Mingle";
+			productName = "Cross Mingle";
+			productReference = 59E9DF7B1C06549F00990F50 /* Cross Mingle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59E9DF8E1C06549F00990F50 /* Cross MingleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E9DFA61C0654A000990F50 /* Build configuration list for PBXNativeTarget "Cross MingleTests" */;
+			buildPhases = (
+				59E9DF8B1C06549F00990F50 /* Sources */,
+				59E9DF8C1C06549F00990F50 /* Frameworks */,
+				59E9DF8D1C06549F00990F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E9DF911C06549F00990F50 /* PBXTargetDependency */,
+			);
+			name = "Cross MingleTests";
+			productName = "Cross MingleTests";
+			productReference = 59E9DF8F1C06549F00990F50 /* Cross MingleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59E9DF991C0654A000990F50 /* Cross MingleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E9DFA91C0654A000990F50 /* Build configuration list for PBXNativeTarget "Cross MingleUITests" */;
+			buildPhases = (
+				59E9DF961C0654A000990F50 /* Sources */,
+				59E9DF971C0654A000990F50 /* Frameworks */,
+				59E9DF981C0654A000990F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E9DF9C1C0654A000990F50 /* PBXTargetDependency */,
+			);
+			name = "Cross MingleUITests";
+			productName = "Cross MingleUITests";
+			productReference = 59E9DF9A1C0654A000990F50 /* Cross MingleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59E9DF731C06549F00990F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "stor0095@algonquinlive.com";
+				TargetAttributes = {
+					59E9DF7A1C06549F00990F50 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PG63BAQE58;
+					};
+					59E9DF8E1C06549F00990F50 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PG63BAQE58;
+						TestTargetID = 59E9DF7A1C06549F00990F50;
+					};
+					59E9DF991C0654A000990F50 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PG63BAQE58;
+						TestTargetID = 59E9DF7A1C06549F00990F50;
+					};
+				};
+			};
+			buildConfigurationList = 59E9DF761C06549F00990F50 /* Build configuration list for PBXProject "Cross Mingle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59E9DF721C06549F00990F50;
+			productRefGroup = 59E9DF7C1C06549F00990F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59E9DF7A1C06549F00990F50 /* Cross Mingle */,
+				59E9DF8E1C06549F00990F50 /* Cross MingleTests */,
+				59E9DF991C0654A000990F50 /* Cross MingleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59E9DF791C06549F00990F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E9DFAE1C06550500990F50 /* Main.storyboard in Resources */,
+				59E9DFBE1C06561100990F50 /* info-2-xxl.png in Resources */,
+				59E9DF891C06549F00990F50 /* LaunchScreen.storyboard in Resources */,
+				59E9DFC21C06569D00990F50 /* refresh-xxl.png in Resources */,
+				59E9DFC61C0656B600990F50 /* info-xxl.png in Resources */,
+				59E9DFCA1C0656BE00990F50 /* Number_phone_case.jpg in Resources */,
+				59E9DF861C06549F00990F50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E9DF8D1C06549F00990F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E9DFC71C0656B600990F50 /* info-xxl.png in Resources */,
+				59E9DFAF1C06550500990F50 /* Main.storyboard in Resources */,
+				59E9DFC31C06569D00990F50 /* refresh-xxl.png in Resources */,
+				59E9DFBF1C06561100990F50 /* info-2-xxl.png in Resources */,
+				59E9DFCB1C0656BE00990F50 /* Number_phone_case.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E9DF981C0654A000990F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E9DFC81C0656B600990F50 /* info-xxl.png in Resources */,
+				59E9DFB01C06550500990F50 /* Main.storyboard in Resources */,
+				59E9DFC41C06569D00990F50 /* refresh-xxl.png in Resources */,
+				59E9DFC01C06561100990F50 /* info-2-xxl.png in Resources */,
+				59E9DFCC1C0656BE00990F50 /* Number_phone_case.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E9DF771C06549F00990F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E9DFB61C06559E00990F50 /* spareVC.swift in Sources */,
+				59E9DF811C06549F00990F50 /* ViewController.swift in Sources */,
+				59E9DF7F1C06549F00990F50 /* AppDelegate.swift in Sources */,
+				59E9DFB21C06557F00990F50 /* gameVC.swift in Sources */,
+				59E9DFBA1C0655AB00990F50 /* infoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E9DF8B1C06549F00990F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E9DFBB1C0655AB00990F50 /* infoVC.swift in Sources */,
+				59E9DFB31C06557F00990F50 /* gameVC.swift in Sources */,
+				59E9DFB71C06559E00990F50 /* spareVC.swift in Sources */,
+				59E9DF941C06549F00990F50 /* Cross_MingleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E9DF961C0654A000990F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E9DFBC1C0655AB00990F50 /* infoVC.swift in Sources */,
+				59E9DFB41C06557F00990F50 /* gameVC.swift in Sources */,
+				59E9DFB81C06559E00990F50 /* spareVC.swift in Sources */,
+				59E9DF9F1C0654A000990F50 /* Cross_MingleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59E9DF911C06549F00990F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E9DF7A1C06549F00990F50 /* Cross Mingle */;
+			targetProxy = 59E9DF901C06549F00990F50 /* PBXContainerItemProxy */;
+		};
+		59E9DF9C1C0654A000990F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E9DF7A1C06549F00990F50 /* Cross Mingle */;
+			targetProxy = 59E9DF9B1C0654A000990F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59E9DF871C06549F00990F50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E9DF881C06549F00990F50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		59E9DFAC1C06550500990F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E9DFAD1C06550500990F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59E9DFA11C0654A000990F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59E9DFA21C0654A000990F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59E9DFA41C0654A000990F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cross Mingle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Cross-Mingle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59E9DFA51C0654A000990F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cross Mingle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Cross-Mingle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59E9DFA71C0654A000990F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cross MingleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Cross-MingleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cross Mingle.app/Cross Mingle";
+			};
+			name = Debug;
+		};
+		59E9DFA81C0654A000990F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cross MingleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Cross-MingleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cross Mingle.app/Cross Mingle";
+			};
+			name = Release;
+		};
+		59E9DFAA1C0654A000990F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cross MingleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Cross-MingleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cross Mingle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		59E9DFAB1C0654A000990F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cross MingleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquincollege.stor0095.Cross-MingleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cross Mingle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59E9DF761C06549F00990F50 /* Build configuration list for PBXProject "Cross Mingle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E9DFA11C0654A000990F50 /* Debug */,
+				59E9DFA21C0654A000990F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E9DFA31C0654A000990F50 /* Build configuration list for PBXNativeTarget "Cross Mingle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E9DFA41C0654A000990F50 /* Debug */,
+				59E9DFA51C0654A000990F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59E9DFA61C0654A000990F50 /* Build configuration list for PBXNativeTarget "Cross MingleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E9DFA71C0654A000990F50 /* Debug */,
+				59E9DFA81C0654A000990F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59E9DFA91C0654A000990F50 /* Build configuration list for PBXNativeTarget "Cross MingleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E9DFAA1C0654A000990F50 /* Debug */,
+				59E9DFAB1C0654A000990F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59E9DF731C06549F00990F50 /* Project object */;
+}
