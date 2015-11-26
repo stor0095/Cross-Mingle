@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Go Mingle
+//  Cross Mingle
 //
 //  Created by Geemakun Storey on 2015-09-18.
 //  Copyright (c) 2015 Storey Inc. All rights reserved.
